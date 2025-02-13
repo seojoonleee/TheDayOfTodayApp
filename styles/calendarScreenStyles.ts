@@ -5,17 +5,13 @@ const BACKCOLOR = '#F3F2ED';
 export const styles = StyleSheet.create({        
     safeArea: {
         flex: 1,
-        // backgroundColor: BACKCOLOR,
       },
       container: {
-        flex: 1,
-        // backgroundColor: BACKCOLOR,
+        flex: 1,        
       },      
-      calendar: {
-        // flex: 1,
+      calendar: {        
         paddingHorizontal: 10,
         paddingVertical: 10,
-        // backgroundColor: BACKCOLOR,
       },
       dayContainer: {        
         width: 50,
@@ -23,7 +19,6 @@ export const styles = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'flex-end',
         paddingBottom: 4,
-        // backgroundColor: BACKCOLOR,
       },
       dayText: {
         fontSize: 16,
@@ -34,7 +29,7 @@ export const styles = StyleSheet.create({
         color: '#b9babd',
       },
       selectedDayText: {
-        color: '#0e0c26',
+        color: 'blue',
         fontWeight: 'bold',
       },
       circleIcon: {
